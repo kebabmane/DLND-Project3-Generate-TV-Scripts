@@ -20,8 +20,7 @@ I also downloaded the larger data set from the origional kaggle competition (~10
 
 ## Recurant Neural Networks
 
-RNN's work well where we need to remember previous words in order to predict which word comes next
-
+RNN's work well where we need to remember previous words in order to predict which word comes next, however we are required to preprocess the data in a specific sequence of steps for the network to function correctly
 
 * In order for RNN's to be used with text data steps need to be taken to preprocess;
 * Convert word to Int and convert Int to word
@@ -32,5 +31,6 @@ Tokenize Punctuation
 
 ## Links
 
-[Origional Kaggle competition data](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data)
-[Explination on RNN's](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+*[Origional Kaggle competition data](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data)
+
+*[Explination on RNN's](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
